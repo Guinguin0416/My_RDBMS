@@ -1,3 +1,5 @@
+MyRDBMS is a Python-based relational database management system (RDBMS) designed to provide a simple yet effective platform for data storage and query processing. This system implements basic functionalities of a traditional RDBMS, including data manipulation (CRUD operations) and querying capabilities.
+
 **** Commands to run the program ****
 
 How to invoke CLI:
@@ -56,6 +58,7 @@ command: list [table name] ordered by [column name] in [asc/desc]
 example: find all events where year<=1920;list events ordered by year in desc;
 
 **** File structure ****
+
 my_project_root/
 │
 ├── my_rdbms/
@@ -86,3 +89,6 @@ my_project_root/
 │
 └── schemas/
     └── (schema files will be stored here)
+
+**** License ****
+This project is licensed under the MIT License - see the LICENSE.md file for details.
